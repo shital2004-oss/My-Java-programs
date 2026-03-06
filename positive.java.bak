@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class positive
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a number :");
+		char ch = sc.nextInt();
+		
+		String op =
+			(ch>0)&&(ch<0)?
+			(ch+" is positive number"):
+			(ch+" is negative number");
+			("zero");
+		System.out.println(op);
+	}
+}

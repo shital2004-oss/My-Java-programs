@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+class HavingZero0
+{
+	public static void main(String args[])
+	{
+	  Scanner sc=new Scanner(System.in);
+	  
+	  System.out.println("Enter the number: ");
+	  int num=sc.nextInt();
+	  
+	  num=Math.abs(num);   //handle negative
+	  
+	  while (num!=0)
+	  {
+		  int digit=num%10;
+		
+		  if (digit==0)
+		  {
+			  System.out.println("zero present");
+		  }
+		  System.out.println("zero is not present");
+		 num=num/10;
+	  }
+	  
+	}
+}

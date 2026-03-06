@@ -1,0 +1,22 @@
+class WhileEvenOddReverse
+{
+	public static void main(String args[])
+	{
+		int i=1; //Starting
+		
+		while(i<=100)  //upto 100 limit
+		{
+			
+			if (i%2==0)
+			{
+				System.out.println(i+ " is even num:" );
+			}
+			
+			//else
+			//{
+				// System.out.println(i+ " is odd num:");
+			//}
+			i++;
+		}
+	}
+}

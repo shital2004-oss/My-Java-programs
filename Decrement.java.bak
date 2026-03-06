@@ -1,0 +1,16 @@
+class Decrement 
+{
+	public static void main(String[] args) 
+	{
+		int poc=100;//99//98//97//96//95//94
+		
+		System.out.println(poc--); //100
+		System.out.println(--poc);//98
+		System.out.println(poc-- + --poc);//98+96=294
+		System.out.println(--poc+ poc--);//95+95=190
+		System.out.println(poc);//94
+		System.out.println(poc--);//94
+		
+	
+	}
+}

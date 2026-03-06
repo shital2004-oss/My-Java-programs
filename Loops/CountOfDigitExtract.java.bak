@@ -1,0 +1,29 @@
+class CountOfDigitExtract
+{
+	public static void main (String args[])
+	{
+		int num=1234;
+		int EvenSum=0;
+		int OddSum=0;
+		
+		while (num!=0)
+		{
+			int last=num%10;
+			System.out.println(last);
+			num=num/10;
+			//num++;
+			
+			if (last%2==0)
+			{
+				EvenSum+=last;
+					
+			}
+			else
+			{
+				OddSum+=last;
+			}
+			System.out.println("Even Sum is: " +EvenSum);
+			System.out.println("Odd sum is: " +OddSum);
+		}
+	}
+}

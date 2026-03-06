@@ -1,0 +1,32 @@
+class TypeOfDouble
+{
+	public static void main(String[] args) 
+	{
+	 //byte<short<int<long<float<double
+
+	 
+	 float f= 246.01f;
+	 System.out.println(f);
+	 
+	  double d=f;
+	 System.out.println(d);
+	 
+	 long l=f;
+	 System.out.println(l);//CTE
+	 
+	 byte b=f;
+	 System.out.println(b); //CTE
+		 
+	 char c=f;
+	 System.out.println(c); //CTE
+	 
+	 int i=f;
+	 System.out.println(i);//CTE
+	 
+	 short s=f;
+	 System.out.println(s);//CTE
+	 
+	 
+	 
+	}
+}

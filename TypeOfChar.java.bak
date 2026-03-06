@@ -1,0 +1,32 @@
+class TypeOfChar
+{
+	public static void main(String[] args) 
+	{
+	 //byte<short<int<long<float<double
+
+	 
+	 float f= c;
+	 System.out.println(f);//CTE
+	 
+	  double d=c;
+	 System.out.println(d);//CTE
+	 
+	 long l=c;
+	 System.out.println(l);//CTE
+	 
+	 byte b=c;
+	 System.out.println(b); //CTE
+		 
+	 char c='a';
+	 System.out.println(c); //CTE
+	 
+	 int i=c;
+	 System.out.println(i);
+	 
+	 short s=c;
+	 System.out.println(s);//CTE
+	 
+	 
+	 
+	}
+}

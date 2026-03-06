@@ -1,0 +1,20 @@
+class WhileLoopEx4
+
+{
+	public static void main(String args[])
+	{
+	char ch = 65;
+	
+	while(ch<=122)
+	{
+		if(ch>=89 && ch<=96)
+		{
+	      ch++;
+		  continue;
+		}
+		
+		System.out.println(ch);
+			ch++;
+	}
+	}
+}

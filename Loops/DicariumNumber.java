@@ -1,0 +1,47 @@
+import java.util.Scanner;
+
+class DicariumNumber
+{
+	public static void main(String args[])
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the number");
+		
+		int num=sc.nextInt();
+		
+		int original=num;
+		int temp=num;
+		int count=0;
+		int sum=0;
+		
+		while (temp!=0)
+		{
+			count++;
+				temp/=10;
+		}
+		temp=num;
+		
+		//main logic
+		while (temp!=0)
+		{
+			int digit=temp%10;
+			int power=1;
+			
+			for(int i=1; i<=count; i++)
+			{
+				power=power*digit;
+			}
+			sum=sum+power;
+			count--;
+			temp/=10;
+		}
+		if(sum==original)
+		{
+			System.out.println("Disarium number");
+		}
+		else
+		{
+			System.out.println("not Disarium number");
+		}
+	}
+}
